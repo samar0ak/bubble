@@ -23,7 +23,7 @@ function settimer() {
       document.querySelector(".hit-container").textContent = '';
       document.querySelector(
         ".pannel-bottom"
-      ).innerHTML = `<div  class="finish">Game over Your Score is ${setscore}</div> <br> <button class="btn" onclick=" onnewclick()" >mall ptaao bhai</button> `;
+      ).innerHTML = `<div  class="finish">Game over Your Score is ${setscore}</div> <br> <button class="btn" onclick=" onnewclick()" >play again </button> `;
     }
   }, 1000);
 }
@@ -53,9 +53,10 @@ document.querySelector(".pannel-bottom")
     let recivednumber = Number(details.target.textContent);
     if (recivednumber == rndhit) {
       document.querySelector(".pannel-bottom").textContent = " ";
+        timercount = 5;
       increaseScore();
       newhit();
-      timercount = 5;
+    
 
       container = "";
       makeBubble();
