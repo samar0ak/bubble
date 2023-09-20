@@ -56,6 +56,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+    overflow: hidden;
+
 }
 .bubble {
   height: 25px;
