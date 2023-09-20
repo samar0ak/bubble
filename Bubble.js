@@ -12,7 +12,7 @@ makeBubble();
 
 // refejhbjrehfgbvyjhreeeeeeeeeeeeeeeeeeeeeeeeereyy
 
-let timercount = 10;
+let timercount = 5;
 function settimer() {
   let stopsetinterval = setInterval(function () {
     if (timercount > 0) {
@@ -23,7 +23,7 @@ function settimer() {
       document.querySelector(".hit-container").textContent = '';
       document.querySelector(
         ".pannel-bottom"
-      ).innerHTML = `<div  class="finish">Game over Your Score is ${setscore}</div> <br> <button class="btn" onclick=" onnewclick()" >Play again</button> `;
+      ).innerHTML = `<div  class="finish">Game over Your Score is ${setscore}</div> <br> <button class="btn" onclick=" onnewclick()" >mall ptaao bhai</button> `;
     }
   }, 1000);
 }
@@ -67,7 +67,7 @@ function onnewclick() {
   document.querySelector(".set-score").textContent = 0;
 
   makeBubble();
-  timercount = 10;
+  timercount = 5;
   newhit();
   settimer();
 }
