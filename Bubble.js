@@ -55,7 +55,7 @@ document.querySelector(".pannel-bottom")
       document.querySelector(".pannel-bottom").textContent = " ";
       increaseScore();
       newhit();
-      let timercount = 5;
+      timercount = 5;
 
       container = "";
       makeBubble();
